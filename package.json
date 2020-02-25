@@ -1,0 +1,23 @@
+{
+  "name": "emailerts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.2"
+  },
+  "dependencies": {
+    "@types/node": "^13.7.4",
+    "node": "^13.8.0",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.4.3"
+  }
+}
